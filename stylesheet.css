@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+html,
+ol, ul, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px 0px;
+  text-align: center;
+}
+
+li {
+    color: white;
+    height: 30px;
+    line-height: 30px;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+  .container{
+      width: 100%;
+      padding: 0px 15px;
+      margin: 0px auto;
+  }
+
+  header{
+      height: 80px;
+      width: 100%;
+      background-color: rgba(18, 94, 132, 0.4);
+      position: fixed;
+      top: 0;
+      z-index: 10;
+  }
+
+  .header-left{
+      float: left;
+  }
+  
+  .logoname{
+      float: left;
+      line-height: 80px;
+      padding: 0 5px;
+      color:#b31002;
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-family: fantasy;
+  }
+  
+
+  .logo{
+      width: 80px;
+      margin-top: 1px;
+  }
+
+  .header-right{
+      float: right;
+      background-color: rgba(18, 94, 132, 0.03);
+  }
+
+  .header-right a:hover{
+    background-color: rgba(18, 94, 132, 0.8);
+  }
+
+  .header-right a{
+      line-height: 79px;
+      padding: 0px 20px;
+      color: rgb(90, 53, 4);
+      font-weight: bold;
+      display: block;
+      transition: all 0.8s;
+      float: left;
+      font-family: sans-serif;
+      letter-spacing: 2px;
+      
+  }
+
+  .menu-icon{
+    color:black;
+    float: right;
+    font-size: 80px;
+    padding: 21px 0px;
+  }
+
+  .top-wrapper{
+      background-image: url(image/background-image.jpg);
+      background-size: cover;
+      padding: 255px 0px 180px 0px;
+      text-align: center;
+      color:#b31002;
+      
+  }
+
+  .top-wrapper h1{
+      font-size: 70px;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+      font-family: sans-serif;
+  }
+
+  .top-text{
+      font-size: 25px;
+      font-weight: bold;
+      color: rgb(39, 39, 35);
+      text-align: center;
+  }
+
+  .menu-wrapper {
+    Width: 100%;
+    Height: 550px;
+    background-color: rgba(142, 206, 239, 0.9);
+    text-align: center;
+    margin: auto 0;
+}
+
+.heading {
+    padding: 40px;
+    color: rgb(49, 66, 66);
+    font-size: 25px;
+}
+
+.menu {
+    float: left;
+    width: 33%;
+}
+
+.menu img {
+    position: relative;
+    width: 300px;
+    height: 300x;
+}
+
+.menu p {
+    position: absolute;
+    width: 33%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.see {
+    padding-top: 40px;
+    font-size: 20px
+}
+
+.fa {
+    padding-left: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(196, 168, 241);
+    border-radius: 4px;
+}
+
+.message-wrapper {
+    padding-top: 70px;
+    background-color: rgba(142, 206, 239, 0.6);
+}
+
+.formhead {
+    font-size: 25px;
+    margin: 15px 0 20px 15px;
+    border-bottom: 1px solid rgb(1, 1, 22, 0.4);
+}
+
+.formhead p {
+    font-size: 15px;
+}
+
+input,
+textarea {
+    width: 400px;
+    margin: 0 0 10px 0px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid rgba(1, 1, 22, 0.514);
+}
+
+.submit {
+    background-color: rgb(196, 168, 241);
+    color: rgb(1, 1, 22);
+    width: 400px;
+    margin-left: 15px;
+    box-shadow: 0px 5px black;
+    border-radius: 4px;
+}
+
+.submit:hover {
+    background-color: rgb(227, 214, 248);
+    cursor: pointer;
+}
+
+.form {
+    margin: 15px;
+}
+
+
+footer {
+    /* height: 200px; */
+    width: 100%;
+    background-color: rgb(196, 168, 241);
+    padding-top: 10px; 
+}
+
+.sosmed-nav{
+    text-align: center;
+}
+
+.copyright{
+    padding-top: 15px;
+    font-size:15px;
+    text-align: center;
+}
