@@ -94,6 +94,7 @@ a {
     float: right;
     font-size: 80px;
     padding: 21px 0px;
+    display: none;
   }
 
   .top-wrapper{
